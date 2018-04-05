@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mtigdemir/symfony-unit-test.svg?branch=master)](https://travis-ci.org/mtigdemir/symfony-unit-test)
+
 ## Install Symfony Skeleton 
 ```bash
 composer create-project symfony/skeleton symfony-unit-test
