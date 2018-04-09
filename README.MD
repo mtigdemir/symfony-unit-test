@@ -13,8 +13,16 @@ php bin/console server:run
 
 
 ## Install Symfony Phpunit Bridge
+## 
 ```bash
 - composer require --dev symfony/phpunit-bridge
+- ./vendor/bin/simple-phpunit
+```
+
+## Install Symfony Browser Kit
+### This package is required for Controller Testing
+```bash
+- composer require --dev symfony/browser-kit
 - ./vendor/bin/simple-phpunit
 ```
 

@@ -9,7 +9,7 @@ namespace App\Util;
 
 class Calculator
 {
-    public function sum($a, $b)
+    public function sum($a, $b) : int
     {
         return $a + $b;
     }
